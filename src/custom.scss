@@ -1,0 +1,11 @@
+// Override default variables before the import
+$body-bg: #000;
+$primary: #ff5155;
+$success: #54ba18;
+$info: #445298;
+$secondary: #032228;
+$secondary-variant: #063c47;
+$grey-variant-one: #053a45;
+
+// Import Bootstrap and its default variables
+@import "~bootstrap/scss/bootstrap.scss";
