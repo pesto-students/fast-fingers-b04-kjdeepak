@@ -3,9 +3,8 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
-import './App.css';
+import './App.scss';
 import DashboardScreenPage from './components/dashboard/DashboardScreenPage';
 import LoginScreenPage from './components/login/LoginScreenPage';
 import SummaryScreenPage from './components/summary/SummaryScreenPage';
