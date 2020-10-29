@@ -27,6 +27,9 @@ function App() {
           <Route path="/" exact={true}>
             <LoginScreenPage />
           </Route>
+          <Route path="**">
+            <LoginScreenPage />
+          </Route>
         </Switch>
       </div>
     </Router>
